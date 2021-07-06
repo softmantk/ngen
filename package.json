@@ -1,0 +1,35 @@
+{
+  "name": "softgen",
+  "version": "0.0.0",
+  "description": "A simple easy Code generator ",
+  "main": "index.js",
+  "preferGlobl": true,
+  "bin": {
+    "gen": "index.js",
+    "softgen": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softmantk/softgen.git"
+  },
+  "keywords": [
+    "codegen",
+    "code",
+    "generator"
+  ],
+  "author": "Nikhil CM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/softmantk/softgen.git/issues"
+  },
+  "homepage": "https://github.com/softmantk/softgen.git#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "clipboardy": "^2.3.0",
+    "commander": "^8.0.0",
+    "uuid": "^8.3.2"
+  }
+}
