@@ -7,12 +7,14 @@ Install globally
 npm install -g softgen
 ```
 
+Installed CLI application is accessible through `gen` or `softgen` commands 
+
 ## Help
 help command can be used for more advanced options for each generator
 
 Eg: 
 ```shell
-ngen uuid help
+gen uuid help
 ```
 Will print more details and options for that generator
 ## Generators
@@ -20,19 +22,19 @@ Will print more details and options for that generator
 ### UUID
 
 ```shell
-ngen uuid # prints id
+gen uuid # prints id
 ```
 By default generated uuid is copied to clipboard
 
 ###To disable copying to clipboard
 ```shell
-ngen uuid --no-copy
+gen uuid --no-copy
 ```
 
 ### Generate n number of ids
 
 ```shell
-ngen uuid 10
+gen uuid 10
 ```
 
 
