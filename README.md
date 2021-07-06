@@ -1,6 +1,6 @@
 # A Simple Generator Application
 
-##Installation
+## Installation
 
 Install globally
 ```shell
@@ -26,7 +26,7 @@ gen uuid # prints id
 ```
 By default generated uuid is copied to clipboard
 
-###To disable copying to clipboard
+### To disable copying to clipboard
 ```shell
 gen uuid --no-copy
 ```
