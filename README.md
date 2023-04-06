@@ -65,13 +65,13 @@ default length is 40
 gen random --no-copy
 ```
 
-### Generate n character length (default length 1)
+### Generate n character length (default length 40)
 
 ```shell
 gen random n
 ```
 
-### Generate n character length of x ids
+### Generate n character length of x ids (default length 40 , no. of ids 1)
 
 ```shell
 gen random n x
