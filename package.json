@@ -15,6 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/softmantk/softgen.git"
   },
+  "readme": "README.md",
   "keywords": [
     "codegen",
     "code",
