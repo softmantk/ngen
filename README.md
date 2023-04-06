@@ -33,7 +33,7 @@ Will print more details and options for that generator
 ## UUID
 
 ```shell
-gen uuid # generates an uuid
+gen uuid # generates a uuid
 ```
 By default generated uuid is copied to clipboard
 
