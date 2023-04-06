@@ -19,7 +19,9 @@
   "keywords": [
     "codegen",
     "code",
-    "generator"
+    "generator",
+    "random",
+    "random string genenerator"
   ],
   "author": "Nikhil CM",
   "license": "ISC",
