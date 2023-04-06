@@ -1,6 +1,6 @@
 {
   "name": "softgen",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple easy Code generator ",
   "main": "index.js",
   "preferGlobl": true,
