@@ -22,10 +22,6 @@ help command can be used for more advanced options for each generator
 gen <generator> help
 ```
 
-```shell
-gen uuid help
-```
-
 Eg:
 ```shell
 gen uuid help
