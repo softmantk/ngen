@@ -9,6 +9,10 @@ npm install -g softgen
 
 Installed CLI application is accessible through `gen` or `softgen` commands 
 
+## AVAILABLE GENERATORS
+
+1. UUID  - Generate uuid string  - `gen uuid`
+2. random - generate random characters - `gen random` 
 ## Help
 
 To see available generators check help
@@ -61,13 +65,13 @@ default length is 40
 gen random --no-copy
 ```
 
-### Generate n character length of 1 id
+### Generate n character length (default length 1)
 
 ```shell
 gen random n
 ```
 
-### Generate n character length of x id
+### Generate n character length of x ids
 
 ```shell
 gen random n x

@@ -3,6 +3,8 @@ const crypto = require('crypto');
 const chalk = require('chalk');
 const clipboardy = require('clipboardy');
 
+const MAX_LENGTH = 1000
+
 function generateRandomString( length ) {
     const allowedChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     let randomString = '';
@@ -26,6 +28,9 @@ const handler = ( program ) => ( argLength, argCount ) => {
     const count = argCount || options.count;
     const length = +argLength || +options.length
     const copyToClipboard = options.copy === 'false' ? false : !!options.copy
+    if (length > MAX_LENGTH) {
+        throw `Length cannot be greater than ${ MAX_LENGTH }`
+    }
     const out = generator(+count, length).join(options.separator);
     console.log(chalk.green.bold('random characters generated: '), chalk.bold('\n' + out));
     if (copyToClipboard) {
