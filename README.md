@@ -10,15 +10,25 @@ npm install -g softgen
 Installed CLI application is accessible through `gen` or `softgen` commands 
 
 ## Help
-help command can be used for more advanced options for each generator
 
-Eg: 
+To see available generators check help
+
+```shell
+gen help
+```
+
+help command can be used for more advanced options for each generator
+```shell
+gen <generator> help
+```
+
 ```shell
 gen uuid help
 ```
 
+Eg:
 ```shell
-gen gen help
+gen uuid help
 ```
 Will print more details and options for that generator
 
