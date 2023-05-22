@@ -54,7 +54,6 @@ module.exports = () => {
     .addArgument(new commander.Argument('[count]', 'no. of words to generate'))
     .option('-n, --count <count>', 'No. of words to generate', 20)
     .option('-c, --copy <copy>', 'Copy to clipboard', true)
-    .option('--separator <separator>', 'Copy to clipboard with separator', '\n')
     .option('--no-copy', 'dont copy to clipboard')
     return loremGenerator
 }
