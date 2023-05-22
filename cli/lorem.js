@@ -39,7 +39,6 @@ const handler = ( program ) => ( argCount ) => {
     const count = argCount || options.count;
     const copyToClipboard = options.copy === 'false' ? false : !!options.copy
     const out = generator(+count)
-    console.log('@@@ :out: ', out);
     console.log(chalk.green.bold('Lorem ipsum Generated: '), chalk.bold('\n' + out));
     if (copyToClipboard) {
         clipboardy.writeSync(out);
