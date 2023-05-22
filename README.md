@@ -3,16 +3,19 @@
 ## Installation
 
 Install globally
+
 ```shell
 npm install -g softgen
 ```
 
-Installed CLI application is accessible through `gen` or `softgen` commands 
+Installed CLI application is accessible through `gen` or `softgen` commands
 
 ## AVAILABLE GENERATORS
 
-1. UUID  - Generate uuid string  - `gen uuid`
-2. random - generate random characters - `gen random` 
+1. UUID - Generate uuid string - `gen uuid`
+2. random - generate random characters - `gen random`
+3. lorem ipsum - Generate lorem ipsum text - `gen lorem`
+
 ## Help
 
 To see available generators check help
@@ -22,14 +25,17 @@ gen help
 ```
 
 help command can be used for more advanced options for each generator
+
 ```shell
 gen <generator> help
 ```
 
 Eg:
+
 ```shell
 gen uuid help
 ```
+
 Will print more details and options for that generator
 
 # Generators
@@ -39,9 +45,11 @@ Will print more details and options for that generator
 ```shell
 gen uuid # generates a uuid
 ```
+
 By default generated uuid is copied to clipboard
 
 ### To disable copying to clipboard
+
 ```shell
 gen uuid --no-copy
 ```
@@ -61,6 +69,7 @@ gen random #generates a random string
 default length is 40
 
 ### To disable copying to clipboard
+
 ```shell
 gen random --no-copy
 ```
@@ -76,5 +85,6 @@ gen random n
 ```shell
 gen random n x
 ```
+
 More generators are on the way..!
 
