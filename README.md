@@ -24,16 +24,16 @@ To see available generators check help
 gen help
 ```
 
-help command can be used for more advanced options for each generator
+help argument can be used for more advanced options for each generator
 
 ```shell
-gen <generator> help
+gen <generator> --help
 ```
 
 Eg:
 
 ```shell
-gen uuid help
+gen uuid --help
 ```
 
 Will print more details and options for that generator
